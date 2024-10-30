@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@types/restify": "^8.5.12",
+    "body-parser": "^1.20.3",
+    "botbuilder": "^4.23.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "restify": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.4",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  }
+}
